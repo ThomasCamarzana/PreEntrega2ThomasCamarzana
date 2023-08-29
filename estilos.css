@@ -1,0 +1,204 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body{
+    position: relative;
+    background-color: #333;
+    background-size: contain;
+    background-repeat: no-repeat;
+    min-height: 100vh;
+}
+
+
+.logo img{
+    height: 90px;
+    width: 90px;
+    position: absolute;
+
+}
+
+.contenedor{
+    background-color: #7E7E7E;
+    height: 90px;
+    position: relative;
+    
+    
+}
+
+.navegacion{
+    float: center;
+    position: absolute;
+    left: 740px;
+    top: 25px;
+    
+}
+
+
+.navegacion ul {
+    list-style: none;
+    margin-right: 50px;
+    padding: 0;
+    text-align: center;
+
+}
+
+.navegacion li {
+    
+    display: inline-block;
+  
+    
+    
+}
+
+.navegacion a {
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    color: aliceblue;
+    display: block;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+.Carrito i{
+    float: left;
+    position: absolute;
+    left: 1000px;
+    height: 150px;
+    width: 50px;
+    
+}
+
+ .contenedorindex{
+    height: calc(100vh - 80px);
+    width: 100%;
+}
+
+.call{
+    background-color: orange;
+    color: white;
+    text-decoration: none;
+    padding: 10px 20px;
+   
+}
+
+h1{
+    text-align: center;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    color: white;
+}
+
+
+.pizzapollo img{
+    border-radius: 5%;
+    border: 2.5px solid black;
+ margin: 50px;
+ float: left;
+ height: 400px;
+ width: 430px;
+}
+
+
+
+.principal{
+    margin-left: 20%;
+    
+   
+}
+
+footer{
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    background-color: #7E7E7E;
+    height: 90px;
+    text-align: center;
+}
+
+.redes{
+    color: orange;
+    font-size: 50px;
+    letter-spacing: 10px;
+}
+
+footer p{
+    font-weight: bold;
+}
+
+/* ESTO ES EL CSS DEL MENU  ESTO ES EL CSS DEL MENU*/
+
+.fotosmenu img, .fotosmenu2 img, .fotosmenu3 img, .fotosmenu4 img{
+    border-radius: 5px;
+    height: 400px;
+    width: 400px;
+    
+}
+
+.fotosmenu{
+    position: absolute;
+    left: 1100px;
+}
+
+.fotosmenu2{
+    position: absolute;
+    left: 400px;
+}
+
+
+
+
+
+.contenedormenu{
+    position: relative;
+    margin-top: 70px;
+    height: 200%;
+}
+
+h1{
+    text-decoration-line: overline;
+    text-decoration-line: underline;
+    text-align: center;
+    margin: 50px;
+}
+
+.footermenu{
+    
+
+}
+
+/* SUCURSALES HTML SUCURSALES HTML */
+
+.contenedormap{
+    width: 600px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.contenedorsucursales{
+    margin-top: 150px;
+}
+
+.formularios{
+    padding: 30px;
+    margin: auto;
+    margin-top: 10px;
+    margin-left: 600px;
+    
+}
+
+
+/* PROMOCIONES HTML PROMOCIONES HTML*/
+
+.h3{
+    text-align: center;
+}
+
+
+
+/* NOSOTROS HTML NOSOTROS HTML*/
+
+.parrafo{
+    text-align: center;
+}
